@@ -9,9 +9,18 @@
     background: black;
     text-align: center;
     position: fixed;
-    top: 100px;
-    left: 0;
     flex-direction: column;
+    top: 100px;
+    left: -100% !important;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+  }
+
+  #check:checked ~ ul {
+    left: 0 !important;
   }
 
   #navbar ul li {
@@ -50,8 +59,17 @@
     text-align: center;
     position: fixed;
     top: 100px;
-    left: 0;
+    left: -100% !important;
     flex-direction: column;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+  }
+
+  #check:checked ~ ul {
+    left: 0 !important;
   }
 
   #navbar ul li {
