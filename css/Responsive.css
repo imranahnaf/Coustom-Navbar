@@ -25,11 +25,18 @@
 
   #navbar ul li {
     display: block !important;
-    height: 80px !important;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+  }
+
+  #navbar ul li:hover {
+    background: #27cbce;
   }
 
   #navbar ul li a {
-    line-height: 80px !important;
     font-weight: 700 !important;
     font-size: 24px !important;
     margin: 0 !important;
@@ -74,18 +81,20 @@
 
   #navbar ul li {
     display: block !important;
-    height: 80px !important;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+  }
+
+  #navbar ul li:hover {
+    background: #27cbce;
   }
 
   #navbar ul li a {
-    line-height: 80px !important;
     font-weight: 700 !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     margin: 0 !important;
-  }
-
-  #navbar ul li a.active {
-    background: rgb(37, 220, 233) !important;
-    display: block !important;
   }
 }

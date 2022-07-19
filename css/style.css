@@ -63,8 +63,13 @@ a {
   margin-left: 10px;
   padding: 8px 12px;
   line-height: 100px;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
 }
 
-#navbar ul li a.active {
+#navbar ul li a:hover {
   background: #27cbce;
 }
